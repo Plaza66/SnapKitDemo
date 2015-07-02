@@ -35,29 +35,35 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     
         self.exampleControllers.append(DemoViewController(navTitle: "Basic", vClass: MASExampleBasicView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Update Constraints", vClass: MASExampleUpdateView.self))
-
         self.exampleControllers.append(DemoViewController(navTitle: "Remake Constraints", vClass: MASExampleRemakeView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Using Constants", vClass: MASExampleConstantsView.self))
 
-        //        [[MASExampleViewController alloc] initWithTitle:@"Using Constants"
-//        viewClass:MASExampleConstantsView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
-//        viewClass:MASExampleSidesView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
-//        viewClass:MASExampleAspectFitView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Basic Animated"
-//        viewClass:MASExampleAnimatedView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
-//        viewClass:MASExampleDebuggingView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
-//        viewClass:MASExampleLabelView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
-//        viewClass:MASExampleScrollView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Array"
-//        viewClass:MASExampleArrayView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"
-//        viewClass:MASExampleAttributeChainingView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Margins"
-//        viewClass:MASExampleMarginView.class]
+        //        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
+        //        viewClass:MASExampleSidesView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
+        //        viewClass:MASExampleAspectFitView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Basic Animated"
+        //        viewClass:MASExampleAnimatedView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
+        //        viewClass:MASExampleDebuggingView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
+        //        viewClass:MASExampleLabelView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
+        //        viewClass:MASExampleScrollView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Array"
+        //        viewClass:MASExampleArrayView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"
+        //        viewClass:MASExampleAttributeChainingView.class],
+        
+        //        [[MASExampleViewController alloc] initWithTitle:@"Margins"
+        //        viewClass:MASExampleMarginView.class]
         
         self.tableView.reloadData()
     }
