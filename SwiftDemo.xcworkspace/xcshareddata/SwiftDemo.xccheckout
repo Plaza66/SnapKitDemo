@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>05A499E5-6A3A-46DF-9371-02D217E03C79</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD3342ABAF0FCF02CA28A5C08BA501967C4F20A3</key>
+		<string>https://github.com/Plaza66/SnapKitDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD3342ABAF0FCF02CA28A5C08BA501967C4F20A3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Plaza66/SnapKitDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD3342ABAF0FCF02CA28A5C08BA501967C4F20A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD3342ABAF0FCF02CA28A5C08BA501967C4F20A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SnapKitDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
