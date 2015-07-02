@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F8BD50F7A85218CC1E2D9EF /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA6BBDCB23C5ED6E9C67FC4 /* Pods_SwiftDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BA1AD9461B452F3200AF096D /* MASExampleRemakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */; };
 		BA1E34061B44372A00628361 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34051B44372A00628361 /* DemoViewController.swift */; };
 		BA1E34081B4445CE00628361 /* MASExampleBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */; };
 		BA1E340A1B44FEE200628361 /* MASExampleUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		B96C1953CB4DC81995D5D07E /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleRemakeView.swift; sourceTree = "<group>"; };
 		BA1E34051B44372A00628361 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleBasicView.swift; sourceTree = "<group>"; };
 		BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUpdateView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */,
 				BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */,
+				BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				BA1E34061B44372A00628361 /* DemoViewController.swift in Sources */,
 				BA43E24F1B43D139005D0FB5 /* ViewController.swift in Sources */,
+				BA1AD9461B452F3200AF096D /* MASExampleRemakeView.swift in Sources */,
 				BA1E34081B4445CE00628361 /* MASExampleBasicView.swift in Sources */,
 				BA1E340A1B44FEE200628361 /* MASExampleUpdateView.swift in Sources */,
 				BA43E24D1B43D139005D0FB5 /* AppDelegate.swift in Sources */,

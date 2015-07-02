@@ -35,11 +35,10 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     
         self.exampleControllers.append(DemoViewController(navTitle: "Basic", vClass: MASExampleBasicView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Update Constraints", vClass: MASExampleUpdateView.self))
-//        [[MASExampleViewController alloc] initWithTitle:@"Update Constraints"
-//        viewClass:MASExampleUpdateView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Remake Constraints"
-//        viewClass:MASExampleRemakeView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Using Constants"
+
+        self.exampleControllers.append(DemoViewController(navTitle: "Remake Constraints", vClass: MASExampleRemakeView.self))
+
+        //        [[MASExampleViewController alloc] initWithTitle:@"Using Constants"
 //        viewClass:MASExampleConstantsView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
 //        viewClass:MASExampleSidesView.class],
