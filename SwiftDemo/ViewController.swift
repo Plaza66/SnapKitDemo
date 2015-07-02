@@ -38,32 +38,15 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.exampleControllers.append(DemoViewController(navTitle: "Remake Constraints", vClass: MASExampleRemakeView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Using Constants", vClass: MASExampleConstantsView.self))
 
-        //        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
-        //        viewClass:MASExampleSidesView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
-        //        viewClass:MASExampleAspectFitView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Basic Animated"
-        //        viewClass:MASExampleAnimatedView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
-        //        viewClass:MASExampleDebuggingView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
-        //        viewClass:MASExampleLabelView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
-        //        viewClass:MASExampleScrollView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Array"
-        //        viewClass:MASExampleArrayView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"
-        //        viewClass:MASExampleAttributeChainingView.class],
-        
-        //        [[MASExampleViewController alloc] initWithTitle:@"Margins"
-        //        viewClass:MASExampleMarginView.class]
+        self.exampleControllers.append(DemoViewController(navTitle: "Composite Edges", vClass: MASExampleSidesView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Aspect Fit", vClass: MASExampleAspectFitView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Basic Animated", vClass: MASExampleAnimatedView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Debugging Helpers", vClass: MASExampleDebuggingView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Bacony Labels", vClass: MASExampleLabelView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "UIScrollView", vClass: MASExampleScrollView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Array", vClass: MASExampleArrayView.self))
+         self.exampleControllers.append(DemoViewController(navTitle: "Attribute Chaining", vClass: MASExampleAttributeChainingView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Margins", vClass: MASExampleMarginView.self))
         
         self.tableView.reloadData()
     }
