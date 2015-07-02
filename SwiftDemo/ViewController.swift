@@ -33,9 +33,8 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.tableView.dataSource = self;
         self.tableView.delegate   = self;
     
-        self.exampleControllers .append(DemoViewController(navTitle: "Basic", vClass: MASExampleBasicView.self))
-//        [[MASExampleViewController alloc] initWithTitle:@"Basic"
-//        viewClass:MASExampleBasicView.class],
+        self.exampleControllers.append(DemoViewController(navTitle: "Basic", vClass: MASExampleBasicView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Update Constraints", vClass: MASExampleUpdateView.self))
 //        [[MASExampleViewController alloc] initWithTitle:@"Update Constraints"
 //        viewClass:MASExampleUpdateView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Remake Constraints"
