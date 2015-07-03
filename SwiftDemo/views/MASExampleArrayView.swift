@@ -57,6 +57,7 @@ class MASExampleArrayView: UIView {
             make.right.equalTo(self).offset(-10)
         }
         
+        
         self.buttonViews = [];
         self.buttonViews.append(raiseButton)
         self.buttonViews.append(centerButton)
