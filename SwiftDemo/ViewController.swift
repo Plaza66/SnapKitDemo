@@ -37,7 +37,6 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.exampleControllers.append(DemoViewController(navTitle: "Update Constraints", vClass: MASExampleUpdateView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Remake Constraints", vClass: MASExampleRemakeView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Using Constants", vClass: MASExampleConstantsView.self))
-
         self.exampleControllers.append(DemoViewController(navTitle: "Composite Edges", vClass: MASExampleSidesView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Aspect Fit", vClass: MASExampleAspectFitView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Basic Animated", vClass: MASExampleAnimatedView.self))
@@ -45,7 +44,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.exampleControllers.append(DemoViewController(navTitle: "Bacony Labels", vClass: MASExampleLabelView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "UIScrollView", vClass: MASExampleScrollView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Array", vClass: MASExampleArrayView.self))
-         self.exampleControllers.append(DemoViewController(navTitle: "Attribute Chaining", vClass: MASExampleAttributeChainingView.self))
+        self.exampleControllers.append(DemoViewController(navTitle: "Attribute Chaining", vClass: MASExampleAttributeChainingView.self))
         self.exampleControllers.append(DemoViewController(navTitle: "Margins", vClass: MASExampleMarginView.self))
         
         self.tableView.reloadData()

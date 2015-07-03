@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3F8BD50F7A85218CC1E2D9EF /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA6BBDCB23C5ED6E9C67FC4 /* Pods_SwiftDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BA1AD9461B452F3200AF096D /* MASExampleRemakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */; };
-		BA1AD9481B456D4A00AF096D /* MASExampleConstantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9471B456D4A00AF096D /* MASExampleConstantsView.swift */; };
-		BA1AD94A1B4571C700AF096D /* MASExampleSidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9491B4571C700AF096D /* MASExampleSidesView.swift */; };
-		BA1AD94C1B4572E800AF096D /* MASExampleAspectFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD94B1B4572E800AF096D /* MASExampleAspectFitView.swift */; };
-		BA1AD94E1B4572F600AF096D /* MASExampleAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD94D1B4572F600AF096D /* MASExampleAnimatedView.swift */; };
-		BA1AD9501B45730500AF096D /* MASExampleDebuggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD94F1B45730500AF096D /* MASExampleDebuggingView.swift */; };
-		BA1AD9521B45731200AF096D /* MASExampleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9511B45731200AF096D /* MASExampleLabelView.swift */; };
-		BA1AD9541B45732100AF096D /* MASExampleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9531B45732100AF096D /* MASExampleScrollView.swift */; };
-		BA1AD9561B45732E00AF096D /* MASExampleArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9551B45732E00AF096D /* MASExampleArrayView.swift */; };
-		BA1AD9581B45733D00AF096D /* MASExampleAttributeChainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9571B45733D00AF096D /* MASExampleAttributeChainingView.swift */; };
-		BA1AD95A1B45734A00AF096D /* MASExampleMarginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AD9591B45734A00AF096D /* MASExampleMarginView.swift */; };
 		BA1E34061B44372A00628361 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34051B44372A00628361 /* DemoViewController.swift */; };
-		BA1E34081B4445CE00628361 /* MASExampleBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */; };
-		BA1E340A1B44FEE200628361 /* MASExampleUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */; };
 		BA43E24D1B43D139005D0FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E24C1B43D139005D0FB5 /* AppDelegate.swift */; };
 		BA43E24F1B43D139005D0FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E24E1B43D139005D0FB5 /* ViewController.swift */; };
 		BA43E2541B43D139005D0FB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA43E2531B43D139005D0FB5 /* Images.xcassets */; };
 		BA43E2571B43D139005D0FB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA43E2551B43D139005D0FB5 /* LaunchScreen.xib */; };
 		BA43E2631B43D139005D0FB5 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2621B43D139005D0FB5 /* SwiftDemoTests.swift */; };
+		BA7E05731B46CE0400912D76 /* MASExampleAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05661B46CE0400912D76 /* MASExampleAnimatedView.swift */; };
+		BA7E05741B46CE0400912D76 /* MASExampleArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05671B46CE0400912D76 /* MASExampleArrayView.swift */; };
+		BA7E05751B46CE0400912D76 /* MASExampleAspectFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05681B46CE0400912D76 /* MASExampleAspectFitView.swift */; };
+		BA7E05761B46CE0400912D76 /* MASExampleAttributeChainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05691B46CE0400912D76 /* MASExampleAttributeChainingView.swift */; };
+		BA7E05771B46CE0400912D76 /* MASExampleBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056A1B46CE0400912D76 /* MASExampleBasicView.swift */; };
+		BA7E05781B46CE0400912D76 /* MASExampleConstantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056B1B46CE0400912D76 /* MASExampleConstantsView.swift */; };
+		BA7E05791B46CE0400912D76 /* MASExampleDebuggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056C1B46CE0400912D76 /* MASExampleDebuggingView.swift */; };
+		BA7E057A1B46CE0400912D76 /* MASExampleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056D1B46CE0400912D76 /* MASExampleLabelView.swift */; };
+		BA7E057B1B46CE0400912D76 /* MASExampleMarginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056E1B46CE0400912D76 /* MASExampleMarginView.swift */; };
+		BA7E057C1B46CE0400912D76 /* MASExampleRemakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E056F1B46CE0400912D76 /* MASExampleRemakeView.swift */; };
+		BA7E057D1B46CE0400912D76 /* MASExampleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05701B46CE0400912D76 /* MASExampleScrollView.swift */; };
+		BA7E057E1B46CE0400912D76 /* MASExampleSidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05711B46CE0400912D76 /* MASExampleSidesView.swift */; };
+		BA7E057F1B46CE0400912D76 /* MASExampleUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E05721B46CE0400912D76 /* MASExampleUpdateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +41,7 @@
 
 /* Begin PBXFileReference section */
 		B96C1953CB4DC81995D5D07E /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleRemakeView.swift; sourceTree = "<group>"; };
-		BA1AD9471B456D4A00AF096D /* MASExampleConstantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleConstantsView.swift; sourceTree = "<group>"; };
-		BA1AD9491B4571C700AF096D /* MASExampleSidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleSidesView.swift; sourceTree = "<group>"; };
-		BA1AD94B1B4572E800AF096D /* MASExampleAspectFitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAspectFitView.swift; sourceTree = "<group>"; };
-		BA1AD94D1B4572F600AF096D /* MASExampleAnimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAnimatedView.swift; sourceTree = "<group>"; };
-		BA1AD94F1B45730500AF096D /* MASExampleDebuggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleDebuggingView.swift; sourceTree = "<group>"; };
-		BA1AD9511B45731200AF096D /* MASExampleLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleLabelView.swift; sourceTree = "<group>"; };
-		BA1AD9531B45732100AF096D /* MASExampleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleScrollView.swift; sourceTree = "<group>"; };
-		BA1AD9551B45732E00AF096D /* MASExampleArrayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleArrayView.swift; sourceTree = "<group>"; };
-		BA1AD9571B45733D00AF096D /* MASExampleAttributeChainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAttributeChainingView.swift; sourceTree = "<group>"; };
-		BA1AD9591B45734A00AF096D /* MASExampleMarginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleMarginView.swift; sourceTree = "<group>"; };
 		BA1E34051B44372A00628361 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
-		BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleBasicView.swift; sourceTree = "<group>"; };
-		BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUpdateView.swift; sourceTree = "<group>"; };
 		BA43E2471B43D139005D0FB5 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA43E24B1B43D139005D0FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA43E24C1B43D139005D0FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +51,19 @@
 		BA43E25C1B43D139005D0FB5 /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA43E2611B43D139005D0FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA43E2621B43D139005D0FB5 /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
+		BA7E05661B46CE0400912D76 /* MASExampleAnimatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAnimatedView.swift; sourceTree = "<group>"; };
+		BA7E05671B46CE0400912D76 /* MASExampleArrayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleArrayView.swift; sourceTree = "<group>"; };
+		BA7E05681B46CE0400912D76 /* MASExampleAspectFitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAspectFitView.swift; sourceTree = "<group>"; };
+		BA7E05691B46CE0400912D76 /* MASExampleAttributeChainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleAttributeChainingView.swift; sourceTree = "<group>"; };
+		BA7E056A1B46CE0400912D76 /* MASExampleBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleBasicView.swift; sourceTree = "<group>"; };
+		BA7E056B1B46CE0400912D76 /* MASExampleConstantsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleConstantsView.swift; sourceTree = "<group>"; };
+		BA7E056C1B46CE0400912D76 /* MASExampleDebuggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleDebuggingView.swift; sourceTree = "<group>"; };
+		BA7E056D1B46CE0400912D76 /* MASExampleLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleLabelView.swift; sourceTree = "<group>"; };
+		BA7E056E1B46CE0400912D76 /* MASExampleMarginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleMarginView.swift; sourceTree = "<group>"; };
+		BA7E056F1B46CE0400912D76 /* MASExampleRemakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleRemakeView.swift; sourceTree = "<group>"; };
+		BA7E05701B46CE0400912D76 /* MASExampleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleScrollView.swift; sourceTree = "<group>"; };
+		BA7E05711B46CE0400912D76 /* MASExampleSidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleSidesView.swift; sourceTree = "<group>"; };
+		BA7E05721B46CE0400912D76 /* MASExampleUpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MASExampleUpdateView.swift; sourceTree = "<group>"; };
 		F16F7653045954288B44143A /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FFA6BBDCB23C5ED6E9C67FC4 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,26 +104,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA1E34021B43FD2F00628361 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BA1E34071B4445CE00628361 /* MASExampleBasicView.swift */,
-				BA1E34091B44FEE200628361 /* MASExampleUpdateView.swift */,
-				BA1AD9451B452F3200AF096D /* MASExampleRemakeView.swift */,
-				BA1AD9471B456D4A00AF096D /* MASExampleConstantsView.swift */,
-				BA1AD9491B4571C700AF096D /* MASExampleSidesView.swift */,
-				BA1AD94B1B4572E800AF096D /* MASExampleAspectFitView.swift */,
-				BA1AD94D1B4572F600AF096D /* MASExampleAnimatedView.swift */,
-				BA1AD94F1B45730500AF096D /* MASExampleDebuggingView.swift */,
-				BA1AD9511B45731200AF096D /* MASExampleLabelView.swift */,
-				BA1AD9531B45732100AF096D /* MASExampleScrollView.swift */,
-				BA1AD9551B45732E00AF096D /* MASExampleArrayView.swift */,
-				BA1AD9571B45733D00AF096D /* MASExampleAttributeChainingView.swift */,
-				BA1AD9591B45734A00AF096D /* MASExampleMarginView.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		BA43E23E1B43D139005D0FB5 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +127,7 @@
 		BA43E2491B43D139005D0FB5 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BA1E34021B43FD2F00628361 /* Views */,
+				BA7E05651B46CE0400912D76 /* views */,
 				BA43E24C1B43D139005D0FB5 /* AppDelegate.swift */,
 				BA43E24E1B43D139005D0FB5 /* ViewController.swift */,
 				BA1E34051B44372A00628361 /* DemoViewController.swift */,
@@ -181,6 +161,26 @@
 				BA43E2611B43D139005D0FB5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA7E05651B46CE0400912D76 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E05661B46CE0400912D76 /* MASExampleAnimatedView.swift */,
+				BA7E05671B46CE0400912D76 /* MASExampleArrayView.swift */,
+				BA7E05681B46CE0400912D76 /* MASExampleAspectFitView.swift */,
+				BA7E05691B46CE0400912D76 /* MASExampleAttributeChainingView.swift */,
+				BA7E056A1B46CE0400912D76 /* MASExampleBasicView.swift */,
+				BA7E056B1B46CE0400912D76 /* MASExampleConstantsView.swift */,
+				BA7E056C1B46CE0400912D76 /* MASExampleDebuggingView.swift */,
+				BA7E056D1B46CE0400912D76 /* MASExampleLabelView.swift */,
+				BA7E056E1B46CE0400912D76 /* MASExampleMarginView.swift */,
+				BA7E056F1B46CE0400912D76 /* MASExampleRemakeView.swift */,
+				BA7E05701B46CE0400912D76 /* MASExampleScrollView.swift */,
+				BA7E05711B46CE0400912D76 /* MASExampleSidesView.swift */,
+				BA7E05721B46CE0400912D76 /* MASExampleUpdateView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,22 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1AD9521B45731200AF096D /* MASExampleLabelView.swift in Sources */,
+				BA7E057F1B46CE0400912D76 /* MASExampleUpdateView.swift in Sources */,
 				BA1E34061B44372A00628361 /* DemoViewController.swift in Sources */,
-				BA1AD9481B456D4A00AF096D /* MASExampleConstantsView.swift in Sources */,
-				BA1AD9541B45732100AF096D /* MASExampleScrollView.swift in Sources */,
-				BA1AD94E1B4572F600AF096D /* MASExampleAnimatedView.swift in Sources */,
-				BA1AD9561B45732E00AF096D /* MASExampleArrayView.swift in Sources */,
 				BA43E24F1B43D139005D0FB5 /* ViewController.swift in Sources */,
-				BA1AD9501B45730500AF096D /* MASExampleDebuggingView.swift in Sources */,
-				BA1AD9461B452F3200AF096D /* MASExampleRemakeView.swift in Sources */,
-				BA1AD94A1B4571C700AF096D /* MASExampleSidesView.swift in Sources */,
-				BA1E34081B4445CE00628361 /* MASExampleBasicView.swift in Sources */,
-				BA1AD95A1B45734A00AF096D /* MASExampleMarginView.swift in Sources */,
-				BA1E340A1B44FEE200628361 /* MASExampleUpdateView.swift in Sources */,
+				BA7E05741B46CE0400912D76 /* MASExampleArrayView.swift in Sources */,
+				BA7E057B1B46CE0400912D76 /* MASExampleMarginView.swift in Sources */,
+				BA7E057A1B46CE0400912D76 /* MASExampleLabelView.swift in Sources */,
+				BA7E057E1B46CE0400912D76 /* MASExampleSidesView.swift in Sources */,
+				BA7E05731B46CE0400912D76 /* MASExampleAnimatedView.swift in Sources */,
+				BA7E05761B46CE0400912D76 /* MASExampleAttributeChainingView.swift in Sources */,
 				BA43E24D1B43D139005D0FB5 /* AppDelegate.swift in Sources */,
-				BA1AD9581B45733D00AF096D /* MASExampleAttributeChainingView.swift in Sources */,
-				BA1AD94C1B4572E800AF096D /* MASExampleAspectFitView.swift in Sources */,
+				BA7E057D1B46CE0400912D76 /* MASExampleScrollView.swift in Sources */,
+				BA7E05781B46CE0400912D76 /* MASExampleConstantsView.swift in Sources */,
+				BA7E057C1B46CE0400912D76 /* MASExampleRemakeView.swift in Sources */,
+				BA7E05771B46CE0400912D76 /* MASExampleBasicView.swift in Sources */,
+				BA7E05791B46CE0400912D76 /* MASExampleDebuggingView.swift in Sources */,
+				BA7E05751B46CE0400912D76 /* MASExampleAspectFitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
