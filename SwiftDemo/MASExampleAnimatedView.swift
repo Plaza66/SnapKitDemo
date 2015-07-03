@@ -11,6 +11,9 @@ import SnapKit
 
 class MASExampleAnimatedView: UIView {
 
+    var greenView: UIView!
+    var redView: UIView!
+    var blueView: UIView!
     
     var animatableConstraints:[AnyObject] = []
     var padding:Int = 10
@@ -19,19 +22,19 @@ class MASExampleAnimatedView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        var greenView = UIView()
+        greenView = UIView()
         greenView.backgroundColor = UIColor.greenColor()
         greenView.layer.borderColor = UIColor.blackColor().CGColor
         greenView.layer.borderWidth = 2
         self.addSubview(greenView)
         
-        var redView = UIView()
+        redView = UIView()
         redView.backgroundColor = UIColor.redColor();
         redView.layer.borderColor = UIColor.blackColor().CGColor;
         redView.layer.borderWidth = 2
         self.addSubview(redView)
         
-        var blueView = UIView()
+        blueView = UIView()
         blueView.backgroundColor = UIColor.blueColor()
         blueView.layer.borderColor = UIColor.blackColor().CGColor
         blueView.layer.borderWidth = 2;
@@ -98,15 +101,20 @@ class MASExampleAnimatedView: UIView {
         
         var _padding = invertedInsets ? 100 : self.padding
         var paddingInsets:UIEdgeInsets = UIEdgeInsetsMake(CGFloat(_padding), CGFloat(_padding), CGFloat(_padding), CGFloat(_padding));
-    
-        for constraint in self.animatableConstraints
-        {
-            let _constraint:ConstraintDescriptionEditable = constraint as! ConstraintDescriptionEditable
-            
-            _constraint.insets(paddingInsets)
-//            ConstraintDescriptionEditable(constraint).insets = paddingInsets
-//
-//            constraint as! ConstraintItem
+
+        greenView.snp_updateConstraints { (make) -> Void in
+            make.edges.equalTo(self).insets(paddingInsets).priorityLow()
+            make.bottom.equalTo(blueView.snp_top).offset(-_padding)
+        }
+        
+        redView.snp_updateConstraints { (make) -> Void in
+            make.edges.equalTo(self).insets(paddingInsets).priorityLow()
+            make.bottom.equalTo(blueView.snp_top).offset(-_padding)
+            make.left.equalTo(greenView.snp_right).offset(_padding)
+        }
+        
+        blueView.snp_updateConstraints { (make) -> Void in
+            make.edges.equalTo(self).insets(paddingInsets).priorityLow()
         }
     
         
@@ -115,8 +123,6 @@ class MASExampleAnimatedView: UIView {
             }) { (finished) -> Void in
                 self.animateWithInvertedInsets(!invertedInsets)
         }
-    
-    
     }
     
     required init(coder aDecoder: NSCoder) {
